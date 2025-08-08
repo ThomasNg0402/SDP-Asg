@@ -10,7 +10,7 @@ public class Program
     }
     public class Restaurant
     {
-        public string RestaurantName { get; set; }
+        public string RestaurantName { get;private set; }
 
     }
     public class Order
